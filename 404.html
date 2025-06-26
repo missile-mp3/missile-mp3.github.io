@@ -1,0 +1,62 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title> _ </title>
+  <link rel="icon" href="/images/404.ico">
+
+  <style>
+      :root {
+          overflow: hidden;
+      }
+
+      h1 {
+          width: 100vw;
+          text-align: center;
+          font-size: 9vw;
+          color: aliceblue;
+          background-color: rgba(0, 0, 0, 0.2);
+          margin: -10px 0 0 0;
+      }
+
+      img {
+          position: absolute;
+          width: 100vw;
+          height: 100vh;
+          z-index: -445;
+      }
+  </style>
+
+</head>
+<body>
+<img src="https://i.postimg.cc/HLvPb4v7/image.png" alt="spongebob">
+<h1> this page doesnt exist </h1>
+</body>
+
+<script>
+    "use strict";
+
+    const target = "404 boowomp";
+    let step = 0;
+    let interval = 250;
+
+    setInterval(() => {
+
+        if (step <= target.length) {
+            document.title = `${target.substring(0, step)}_`
+        } else {
+            switch (document.title[target.length]) {
+                case "_":
+                    document.title = target; break
+                case undefined:
+                    document.title = `${target}_`; break
+            }
+
+        }
+        step++;
+    }, interval);
+</script>
+
+</html>
