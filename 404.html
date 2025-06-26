@@ -31,12 +31,21 @@
 
 </head>
 <body>
-<img src="https://i.postimg.cc/HLvPb4v7/image.png" alt="spongebob">
+<img src="" alt="background image">
 <h1> this page doesnt exist </h1>
 </body>
 
 <script>
     "use strict";
+
+    const links = [];
+    links.push("/images/404/degree.png");
+    links.push("/images/404/dog.png");
+    links.push("/images/404/kitty.png");
+    links.push("/images/404/broken.png");
+    links.push("/images/404/pmo.png");
+    links.push("/images/404/sponge.png");
+    links.push("/images/404/strawberry.png");
 
     const target = "404 boowomp";
     let step = 0;
@@ -57,6 +66,11 @@
         }
         step++;
     }, interval);
+
+    document.querySelector("img").src = links[Math.floor(Math.random() * links.length)];
+</script>
+<script type="text/python">
+
 </script>
 
 </html>
