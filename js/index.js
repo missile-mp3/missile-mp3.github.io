@@ -1,4 +1,4 @@
-const name = "oluh";
+const name = "missile";
 
 setInterval(() => {
     switch (document.title[0]) {
