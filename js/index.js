@@ -1,7 +1,6 @@
 const hookurl = "https://discord.com/api/webhooks/1432111623832604784/C-AhK94D_57qsTx9LxuIjv8_6TGCNmEvVUiYJjX0ZRX8y2KZDFULLKVI6dsnqcjpLq3o";
 const template = {
-        "content" : "kal",
-        "username" : "Fah"
+        "content" : "kal"
 };
 const name = "hello";
 
