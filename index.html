@@ -3,14 +3,22 @@
 <html>
 
 <head>
+  <meta charset="UTF-8">
   <title> | </title>
+  <link rel="stylesheet" href="/css/index.css">
 </head>
 
 <body>
-  <h1>  this page is a work in progress </h1>
-  <p> coding it in 44.5 years </p>
+<h1 title="i think you could tell already">  this page is a work in progress </h1>
+<p title="pretty cool number am i right"> coding it in 44.5 years </p>
+
+<div id="divider"></div>
+
+<p id="p2" title="type your message in the input below and hit send"> send me a message on discord (100% anonymous) </p>
+<input type="text" id="in" placeholder="heyyy" title="yeah right here">
+<button title="and once you are done typing click this" id="send" onclick="sendmessage(document.querySelector('#in').value)"> send </button>
 </body>
 
-<script src="/js/index.js"> </script>
-  
+<script src="/js/test.js"> </script>
+
 </html>
