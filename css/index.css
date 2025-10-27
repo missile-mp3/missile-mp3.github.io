@@ -1,0 +1,12 @@
+:root {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#divider {
+    background-color: #dadada;
+    width: 450px;
+    left: 20px;
+    height: 5px;
+}
