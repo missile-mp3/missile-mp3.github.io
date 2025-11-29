@@ -1,4 +1,4 @@
-const hookurl = "https://discord.com/api/webhooks/1432111623832604784/C-AhK94D_57qsTx9LxuIjv8_6TGCNmEvVUiYJjX0ZRX8y2KZDFULLKVI6dsnqcjpLq3o";
+const hookurl = "https://discord.com/api/webhooks/1444416308514132120/LqYdElTM1ORSpesT3YvxCWobmqRxL7-5VhbSc3ESWhjUlrPEEGjp1uJEUP2-nR36t3ng";
 const template = {
         "content" : "kal"
 };
